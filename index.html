@@ -17,21 +17,24 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                 <p> Seja Bem Vindo(a)! Acesse abaixo para fazer suas configurações.</p>
-                 <form action="login.php" method="post"></form>
+                <p> Seja Bem Vindo(a)! Acesse abaixo para fazer suas configurações.</p>
+                <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         
-                        <span class="material-icons">&#xE87C;</span>
-                        <input type="email" name="email" id="iemail">
-                        <label for="imail">E-mail</label>
+                        <span class="material-icons">mail</span>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
+                        <label for="imail"><strong>login</strong></label>
                     
                     </div>
                     <div class="campo">
                     
-                        <input type="password" name="senha" id="isenha">
-                        <label for="isenha">Senha</label>
-
+                        <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8">
+                        <label for="isenha">senha</label>
                     </div>
+                    <input type="submit" value="entrar">
+                    <a href="#">Esqueci a senha</a>
+                </form>
             </div>
 
         </section>
