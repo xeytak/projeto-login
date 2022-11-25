@@ -29,7 +29,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.747);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.747);
 }
 
 #imagem{
